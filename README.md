@@ -1,5 +1,7 @@
 
-### Ignite Local Setup
+# Spring Ignite POC App
+
+<hr />
 
 ##### 01. Download the ignite binary [2.7.0](http://mirrors.wuchna.com/apachemirror//ignite/2.7.0/apache-ignite-2.7.0-bin.zip)
 
