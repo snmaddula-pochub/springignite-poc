@@ -1,0 +1,23 @@
+[17:11:26] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[17:11:26] Security status [authentication=off, tls/ssl=off]
+[17:11:39] Performance suggestions for grid 'spring-ignite-poc' (fix if possible)
+[17:11:39] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[17:11:39]   ^-- Enable G1 Garbage Collector (add '-XX:+UseG1GC' to JVM options)
+[17:11:39]   ^-- Specify JVM heap max size (add '-Xmx<size>[g|G|m|M|k|K]' to JVM options)
+[17:11:39]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[17:11:39]   ^-- Disable processing of calls to System.gc() (add '-XX:+DisableExplicitGC' to JVM options)
+[17:11:39] Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+[17:11:39] 
+[17:11:39] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[17:11:39] Data Regions Configured:
+[17:11:39]   ^-- default [initSize=256.0 MiB, maxSize=3.2 GiB, persistence=false]
+[17:11:39] 
+[17:11:39] Ignite node started OK (id=72408e7b, instance name=spring-ignite-poc)
+[17:11:39] Topology snapshot [ver=1, locNode=72408e7b, servers=1, clients=0, state=ACTIVE, CPUs=8, offheap=3.2GB, heap=3.5GB]
+************ Accounts by FirstName : Alpha
+Account[accountId=1,firstName=Alpha,lastName=Omega]
+Account[accountId=2,firstName=Alpha,lastName=B]
+************ Accounts by LastName : Omega
+Account[accountId=1,firstName=Alpha,lastName=Omega]
+Account[accountId=3,firstName=Alpha_3,lastName=Omega]
+[17:11:39] Ignite node stopped OK [name=spring-ignite-poc, uptime=00:00:00.600]
