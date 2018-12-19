@@ -36,10 +36,15 @@ Observe the logs that account records are getting associated with Ignite.
 
 `
 [17:11:39] Ignite node started OK (id=72408e7b, instance name=spring-ignite-poc)
+
 [17:11:39] Topology snapshot [ver=1, locNode=72408e7b, servers=1, clients=0, state=ACTIVE, CPUs=8, offheap=3.2GB, heap=3.5GB]
+
 ************ Accounts by FirstName : Alpha
+
 Account[accountId=1,firstName=Alpha,lastName=Omega]
+
 Account[accountId=2,firstName=Alpha,lastName=B]
+
 ************ Accounts by LastName : Omega
 Account[accountId=1,firstName=Alpha,lastName=Omega]
 Account[accountId=3,firstName=Alpha_3,lastName=Omega]
